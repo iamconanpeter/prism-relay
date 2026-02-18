@@ -9,4 +9,4 @@
 - [x] Run tests/build locally
 - [x] Initialize git with clean history
 - [x] Create/push GitHub repo
-- [ ] Update status JSON + pipeline markdown
+- [x] Update status JSON + pipeline markdown
