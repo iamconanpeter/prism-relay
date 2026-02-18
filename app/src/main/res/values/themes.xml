@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.PrismRelay" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>
