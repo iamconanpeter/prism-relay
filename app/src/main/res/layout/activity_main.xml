@@ -24,6 +24,14 @@
         android:textColor="#CBD5E1"
         android:textSize="15sp" />
 
+    <TextView
+        android:id="@+id/statsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#93C5FD"
+        android:textSize="14sp" />
+
     <GridLayout
         android:id="@+id/grid"
         android:layout_width="match_parent"
@@ -50,11 +58,25 @@
         android:textColor="#93C5FD"
         android:textSize="14sp" />
 
-    <Button
-        android:id="@+id/resetBtn"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Reset Puzzle" />
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/undoBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Undo" />
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reset Puzzle" />
+    </LinearLayout>
 
 </LinearLayout>
